@@ -112,3 +112,17 @@ HashSet utilizado para preservar el orden
 Impresión de Set: 
 Carlos Gomez (25), Luis Gomez (22), Ana Martinez (30), David Martinez (40), ...
 ```
+
+
+
+| **Criterio**                           | **Puntaje Máximo** | **Descripción** |
+|-----------------------------------------|--------------------|----------------|
+| PARTE TEORICA  | **10 pts**         | Preguntas en el AVAC |
+| **1. Implementación del Ordenamiento**  | **10 pts**         | Implementa un algoritmo de ordenamiento que ordene la lista de personas **por apellido**. **No se permite usar `.sort()` ni métodos predeterminados de Java**. |
+| **2. Implementación de la Búsqueda Binaria** | **8 pts**  | Implementa **búsqueda binaria** sobre la lista previamente ordenada para encontrar una persona según su edad. Debe devolver la primera coincidencia y manejar correctamente el caso cuando la persona no es encontrada. |
+| **3. Implementación de la Clasificación por Edad** | **10 pts** | Clasifica correctamente a las personas en tres categorías: **"Menores de edad" (<18), "Adultos" (18-60), "Tercera edad" (>60)**, utilizando un `Map` que preserve el orden de la lista previamente ordenada. |
+| **4. Implementación de la Elección del `Set`** | **8 pts** | Implementa un método que permite seleccionar una estructura de datos `Set` (`LinkedHashSet`, `TreeSet` o `HashSet`) para almacenar una categoría específica, justificando la elección y utilizando correctamente el `Map` de clasificación. |
+| **5. Funcionamiento General del Programa** | **4 pts** | El código compila y se ejecuta sin errores, mostrando la **salida esperada** correctamente. |
+
+**Total: 50 pts** ✅  
+
